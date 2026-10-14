@@ -66,6 +66,7 @@
 </main>
 <footer class="wrap footer"><div class="footerin"><span>© <span id="year"></span> GARBA NIGHT 3.0 · Celebrate in style.</span><span>Instagram · Contact organizer · Terms & refund policy (add links before launch)</span></div></footer>
 <div class="toast" id="toast" role="status"></div>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 <script>
 const passType=document.getElementById('passType'), quantity=document.getElementById('quantity'), total=document.getElementById('total');
 const money=n=>'₹'+Number(n).toLocaleString('en-IN');
@@ -188,7 +189,7 @@ document.getElementById('bookingForm').addEventListener('submit', async (e) => {
     box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
 });
-<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
 </script>
 </body>
 </html>
